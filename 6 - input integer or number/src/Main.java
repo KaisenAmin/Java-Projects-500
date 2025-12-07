@@ -19,9 +19,6 @@ public class Main {
 
 //        System.out.println("Bool value is " + flag);
 
-        System.out.println("Enter grade of student : ");
-        grade = input.nextDouble();
 
-        System.out.printf("Grade is %.2f\n", grade);
     }
 }
