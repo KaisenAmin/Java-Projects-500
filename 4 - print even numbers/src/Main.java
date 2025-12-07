@@ -1,42 +1,24 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-    /*    for (int i = 1; i <= 20; i++) {
-            if (i % 2 == 0) {
-                System.out.println(i + " is even number");
-            }
-        }
+        Scanner input = new Scanner(System.in);
+        int number;
+        double grade = 0.0;
+        char ch;
 
-        System.out.println("------");
-*/
-        int counter = 0;
-//
-//        while (counter <= 20) {
-//            if (counter % 2 == 0) {
-//                System.out.println(counter + " is even number");
-//            }
-//            counter++;
-//        }
+        System.out.print("Enter number please : ");
+        number = input.nextInt();
+        grade = input.nextDouble();
+
+        System.out.println("Number is " + number);
+
+        System.out.print("Enter grade Please : ");
 
 
-//        counter = 1;
-//
-//        do {
-//            if (counter % 2 == 0) {
-//                System.out.printf("%d is even number\n", counter);
-//            }
-//        } while (++counter <= 20);
+        System.out.println("Grade in Double is " + grade);
+        ch = input.next().charAt(0);
 
-//        while (counter <= 20) {
-//            if (counter == 0) {
-//                counter += 2;
-//                continue;
-//            }
-//            System.out.println(counter + " is even");
-//            counter += 2;
-//        }
-
-        for (int i = 0; i <= 20; i += 2) {
-            System.out.println(i + " is Even");
-        }
+        System.out.println("Char is " + ch);
     }
 }
