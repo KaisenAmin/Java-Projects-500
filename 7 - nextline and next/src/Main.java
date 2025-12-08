@@ -1,32 +1,20 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        String name;
-        int age;
+        float a = 10;
+        float b = 20;
 
-        System.out.print("Enter age : ");
-        age = input.nextInt();
+//        a = a + b; // 30
+//        b = a - b; // 10
+//        a = a - b; // 20
 
-        input.nextLine();
-        System.out.print("Enter name : ");
-        name = input.nextLine();
+//        a = a ^ b;
+//        b = a ^ b;
+//        a = a ^ b;
+
+        System.out.println(a + " " + b);
 
 
-        System.out.printf("Name is %s and age is %d\n", name, age);
-
-//
-//        System.out.print("enter name : ");
-//        name = input.nextLine();
-//        name = input.next();
-//        System.out.println("Name is " + name);
-
-//        String age, lang;
-//        System.out.println("Please Enter age and your programming language : ");
-//        age = input.next();
-//        lang = input.next();
-//
-//        System.out.println("Lang is " + lang + " age is " + age);
 
 
     }
