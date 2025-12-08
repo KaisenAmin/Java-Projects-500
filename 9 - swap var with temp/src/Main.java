@@ -12,9 +12,17 @@ public class Main {
         System.out.print("Enter b : ");
         b = input.nextInt();
 
-        int temp = a;
-        a = b;
-        b = temp;
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+
+        String one = "Java", two = "programmers";
+
+        one = (one + two);
+        two = (one).substring(0, one.length() - two.length());
+        one = one.substring(two.length());
+
+        System.out.println(one + "\n" + two);
 
         System.out.println("a is " + a);
         System.out.println("b is " + b);
