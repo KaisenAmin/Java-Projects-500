@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int a, b, c;
@@ -13,7 +14,9 @@ public class Main {
         System.out.println("Enter c : ");
         c = input.nextInt();
 
-        String maxi = a > b? : b;
-        maxi = maxi > c? maxi
+//        int max = (a > b)? (a > c? a: c):(b > c? b: c);
+        int max = Math.max(a, Math.max(b, c));
+
+        System.out.println("Max number is " + max);
     }
 }
