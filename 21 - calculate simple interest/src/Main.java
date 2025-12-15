@@ -22,6 +22,5 @@ public class Main {
         System.out.println("Total interest is " + totalInterest);
         System.out.println("Total Money with interest is " + totalPrincipal);
 
-
     }
 }
