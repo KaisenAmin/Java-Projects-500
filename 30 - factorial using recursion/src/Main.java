@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-
     public static int factorial(int number) {
         if (number < 0) {
             return -1;
@@ -11,7 +10,6 @@ public class Main {
             return factorial(number - 1) * number;
         }
     }
-    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int number;
@@ -26,4 +24,5 @@ public class Main {
             System.out.printf("factorial of %d is %d\n", number, result);
         }
     }
+
 }
