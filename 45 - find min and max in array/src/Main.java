@@ -64,6 +64,6 @@ public class Main {
 
         System.out.println("Min by findMinMax is " + data.get("min"));
         System.out.println("Max by findMinMax is " + data.get("max"));
-        
+
     }
 }
